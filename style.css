@@ -1,0 +1,49 @@
+body{
+	background: url("../polaroid.png") repeat;
+	font-family: sans-serif;
+}
+ul li{
+	display: inline-block;
+	text-align: center;
+	background-color: #E0E0FF;
+	margin: 10px;
+}
+a:link{
+	text-decoration: none;
+	color: #868699;
+}
+a:hover{
+	font-weight: bold;
+}
+a:visited{
+	color: #868699;
+}
+.maincontent{
+	background-color: rgba(224, 224, 255,.3);
+	margin:0 auto;
+	width: 500px;
+	height: 100%;
+}
+.header{
+	text-align: center;
+	margin: 30px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+.leftcol, .rightcol{
+	float: left;
+	border-top: 3px solid grey;
+	border-bottom: 3px solid grey;
+	border-right: 3px solid grey;
+	width: 50%;
+	box-sizing: border-box;
+	background-color: rgba(224, 224, 255,.3);
+	padding: 20px;
+}
+.leftcol{
+	border-left:3px solid grey;
+}
+h2{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
