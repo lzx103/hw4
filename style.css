@@ -1,6 +1,12 @@
 body{
-	background: url("../polaroid.png") repeat;
+	background: url("polaroid.png") repeat;
 	font-family: sans-serif;
+}
+.home{
+	background: url("hw4-pics/IMG_9907.JPG") no-repeat center center;
+	background-size: contain;
+	background-color: white;
+	height: 100%;
 }
 ul li{
 	display: inline-block;
@@ -30,20 +36,27 @@ a:visited{
 	padding-top: 20px;
 	font-size: 25px;
 }
+.wrapper{
+	height: 300px;
+	border: 3px solid grey;
+	
+}
 .leftcol, .rightcol{
 	float: left;
-	border-top: 3px solid grey;
-	border-bottom: 3px solid grey;
-	border-right: 3px solid grey;
 	width: 50%;
 	box-sizing: border-box;
-	background-color: rgba(224, 224, 255,.3);
 	padding: 20px;
+	min-height: 100%;
+	background-color: rgba(224, 224, 255,.3);
 }
 .leftcol{
-	border-left:3px solid grey;
+	border-right:3px solid grey;
 }
 h2{
 	font-size: 18px;
 	padding-bottom: 15px;
+}
+.tagline{
+	text-align: center;
+	margin: 20px;
 }
